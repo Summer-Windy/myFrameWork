@@ -45,8 +45,6 @@
 		 <!-- <property name="person" ref="person"></property>    -->
 	</bean>
 	
-	
-
 
 	<!-- 数据源 -->
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
@@ -125,6 +123,6 @@
 	<!-- <aop:aspectj-autoproxy></aop:aspectj-autoproxy> -->
     <!-- <bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator" /> -->  
     <!-- <bean id="aspectBean" class="com.spring.aop.TestAnnotationAspect" /> -->
-    <bean id="aService" class="com.spring.service.AServiceImpl"></bean>  
-    <bean id="bService" class="com.spring.service.BServiceImpl"></bean>
+    <bean id="aService" class="com.xbb.net.spring.service.AServiceImpl"></bean>  
+    <bean id="bService" class="com.xbb.net.spring.service.BServiceImpl"></bean>
 </beans>
