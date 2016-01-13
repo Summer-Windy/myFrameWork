@@ -46,21 +46,21 @@
     
     <!-- 拦截器 -->
     <mvc:interceptors>
-   		<bean class="com.xbb.net.interceptor.IpInterceptor" />
+   		<bean class="com.xbb.net.web.interceptor.IpInterceptor" />
     	<mvc:interceptor>
     		<mvc:mapping path="/login"/>
-    		<bean class="com.xbb.net.interceptor.TimeInterceptor">
+    		<bean class="com.xbb.net.web.interceptor.TimeInterceptor">
     			<!--openingTime 属性指定上班时间-->  
                 <property name="openingTime">  
-                    <value>12</value>  
+                    <value>0</value>  
                 </property>  
                 <!--closingTime属性指定下班时间-->  
                 <property name="closingTime">  
-                    <value>19</value>  
+                    <value>24</value>  
                 </property>  
                 <!--outsideOfficeHoursPage属性指定提示页面的URL-->  
                 <property name="outsideOfficeHoursPage">  
-                    <value>http://localhost:9070/net/index.jsp </value>  
+                    <value>http://localhost:8080/net/index.jsp </value>  
                 </property> 
     		</bean>
     	</mvc:interceptor>

@@ -4,7 +4,7 @@
   <property name="driverClass">com.mysql.jdbc.Driver</property>
   <property name="jdbcUrl">jdbc:mysql:///DHBZ</property>
   <property name="user">root</property>
-  <property name="password">QIN_han654312</property>
+  <property name="password"></property>
   <property name="acquireIncrement">10</property>
   <property name="initialPoolSize">30</property>
   <property name="minPoolSize">5</property>
