@@ -13,7 +13,8 @@ public class LoginController {
 
 	@RequestMapping(value={"/login"},produces = "text/html;charset=UTF-8")
 	public String login(){
-		String urlJsp = "/account/login"; 
-		return urlJsp;
+//		String urlJsp = "/account/login"; 
+		String myUrlJsp = "/account/login"; 
+		return myUrlJsp;
 	}
 }
