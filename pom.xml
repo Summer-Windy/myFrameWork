@@ -308,7 +308,7 @@
 				<version>${commons-io.version}</version>
 			</dependency>
 
-			<dependency>
+<!-- 			<dependency>
 				<groupId>org.json</groupId>
 				<artifactId>org.json</artifactId>
 				<version>${json.version}</version>
@@ -318,7 +318,7 @@
 				<groupId>com.baidu.ueditor</groupId>
 				<artifactId>ueditor</artifactId>
 				<version>${ueditor.version}</version>
-			</dependency>
+			</dependency> -->
 
 
 
@@ -338,7 +338,7 @@
 			<!-- xml解析 -->
 
 			<!-- 操作excel -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>com.qinhannet</groupId>
 				<artifactId>poi</artifactId>
 				<version>${poi.version}</version>
@@ -348,7 +348,7 @@
 				<groupId>com.qinhannet</groupId>
 				<artifactId>jxl</artifactId>
 				<version>${jxl.version}</version>
-			</dependency>
+			</dependency> -->
 			<!-- 操作excel -->
 
 
