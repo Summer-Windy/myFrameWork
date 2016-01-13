@@ -483,14 +483,6 @@
 		</repository>
 	</repositories>
 
-	<!-- 设定插件仓库 , 如有Nexus私服, 并指向正确的服务器地址. -->
-	<pluginRepositories>
-		<pluginRepository>
-			<id>nexus</id>
-			<name>Team Nexus Repository</name>
-			<url>http://192.168.1.65:8081/nexus/content/groups/public</url>
-		</pluginRepository>
-	</pluginRepositories>
 
 	<build>
 		<!-- 命令行输入mvn时，默认执行mvn package -->
@@ -600,7 +592,16 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
+	<!-- 设定插件仓库 , 如有Nexus私服, 并指向正确的服务器地址. -->
+	<!-- <pluginRepositories>
+		<pluginRepository>
+			<id>nexus</id>
+			<name>Team Nexus Repository</name>
+			<url>http://192.168.1.65:8081/nexus/content/groups/public</url>
+		</pluginRepository>
+	</pluginRepositories> -->
+	
+	<!-- <distributionManagement>
 		<repository>
 			<id>Releases</id>
 			<url>http://192.168.1.65:8081/nexus/content/repositories/releases</url>
@@ -609,5 +610,5 @@
 			<id>Snapshots</id>
 			<url>http://192.168.1.65:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement> -->
 </project>
